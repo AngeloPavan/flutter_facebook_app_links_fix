@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.library'
-    id 'dev.flutter.plugin'
+    id 'org.jetbrains.kotlin.android'
 }
 
 group 'it.remedia.flutter_facebook_app_links'
