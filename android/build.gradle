@@ -1,25 +1,10 @@
+plugins {
+    id 'com.android.library'
+    id 'dev.flutter.plugin'
+}
+
 group 'it.remedia.flutter_facebook_app_links'
 version '3.0'
-
-buildscript {
-    repositories {
-        mavenCentral()
-        google()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
-    }
-}
-
-rootProject.allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
